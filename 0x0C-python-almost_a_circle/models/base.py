@@ -1,14 +1,13 @@
 #!/usr/bin/python3
-    '''module for base class'''
+    '''Module for base class.'''
 
 class Base:
-    '''base class to our all comming classes'''
+    '''A base class to our all comming classes'''
 
     __nb_objects = 0
 
     def __init__(self, id=None):
-        '''constructure'''
-
+        '''Constructure'''
         if id is not None:
             self.id = id
         else:
