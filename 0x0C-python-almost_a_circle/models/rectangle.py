@@ -72,7 +72,7 @@ class Rectangle(Base):
 
     def display(self):
         """Print the Rectangle using the `#` character."""
-         if self.width == 0 or self.height == 0:
+        if self.width == 0 or self.height == 0:
             print("")
             return
 
@@ -81,7 +81,8 @@ class Rectangle(Base):
             [print(" ", end="") for x in range(self.x)]
             [print("#", end="") for w in range(self.width)]
             print("")
-     def update(self, *args, **kwargs):
+
+    def update(self, *args, **kwargs):
         """Update the Rectangle.
 
         Args:
