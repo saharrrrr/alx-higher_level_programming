@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-    '''Module for base class.'''
+"""Defines a base model class."""
+
 
 class Base:
     """Base model.
